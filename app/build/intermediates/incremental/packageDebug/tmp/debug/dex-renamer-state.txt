@@ -1,0 +1,4 @@
+#Sun Sep 09 20:25:49 BDT 2018
+base.0=D\:\\Document\\BITM\\3rdProject\\ToutMate\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

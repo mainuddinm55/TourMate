@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Jun 04 01:59:47 BDT 2018
+0.baseType=DIRECTORY
+0.base=D\:\\Document\\BITM\\3rdProject\\ToutMate\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

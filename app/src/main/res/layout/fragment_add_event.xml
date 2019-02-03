@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".fragment.AddEventFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/eventNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Event Name"
+            android:textSize="18sp"
+            android:textColorHint="@android:color/white"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/startLocationEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Starting Location"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textColorHint="@android:color/white"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/destLocationEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Destination Location"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@android:color/white"
+            android:textSize="18sp"
+            android:inputType="text"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/departureDateTextView"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                android:hint="Departure Date"
+                android:textColorHint="@android:color/white"
+                android:textSize="18sp"
+                android:inputType="date"/>
+
+            <ImageButton
+                android:id="@+id/departureDateButton"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:src="@drawable/calendar"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/budgetEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Estimated Budget "
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textColorHint="@android:color/white"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/createEventButton"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Create Event"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:textAllCaps="false"
+            android:background="@drawable/bgf"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</FrameLayout>

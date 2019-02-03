@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/lgn_bg"
+    tools:context=".LoginActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="40dp"/>
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_hint"
+            android:textColor="@android:color/white"
+            android:textColorHint="#fff"
+            android:textSize="30sp"
+            android:layout_marginRight="50dp"
+            android:padding="15dp"
+            android:background="@drawable/bgff"
+            android:drawableLeft="@drawable/m_email"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:layout_margin="10dp"
+            />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/pass_hint"
+            android:textColor="@android:color/white"
+            android:textColorHint="#fff"
+            android:textSize="30sp"
+            android:layout_marginRight="50dp"
+            android:padding="15dp"
+            android:background="@drawable/bgff"
+            android:drawableLeft="@drawable/pass"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/errorMsgTextView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff22"/>
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:textSize="35sp"
+            android:textColor="#282828"
+            android:background="@drawable/bgf"
+            android:text="Login"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not Register Yet??"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#020100"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Register"
+            android:padding="15dp"
+            android:textSize="35sp"
+            android:textColor="#282828"
+            android:background="@drawable/bgf"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+</ScrollView>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

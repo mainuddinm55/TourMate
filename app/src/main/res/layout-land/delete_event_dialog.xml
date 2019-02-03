@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:drawableLeft="@drawable/warning_icon"
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Delete Event......"
+        android:textSize="20sp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do You Want to Delete Event?"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:inputType="numberDecimal"/>
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/yesButton"
+            android:text="No"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:background="#fff"
+            android:textColor="#37e26d"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/yesButton" />
+        <Button
+            android:textColor="#37e26d"
+            android:layout_alignParentRight="true"
+            android:id="@+id/yesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:text="Yes"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            />
+    </RelativeLayout>
+</LinearLayout>

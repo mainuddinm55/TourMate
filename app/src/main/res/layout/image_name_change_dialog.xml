@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Change Image Name..."
+        android:textSize="20sp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/imageNameEditText"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Capture 0"
+        android:hint="Image Name"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:inputType="text"/>
+    <RelativeLayout
+        android:layout_margin="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/saveButton"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:background="#fff"
+            android:textColor="#37e26d"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/saveButton" />
+        <Button
+            android:textColor="#37e26d"
+            android:layout_alignParentRight="true"
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:text="Save"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            />
+    </RelativeLayout>
+</LinearLayout>

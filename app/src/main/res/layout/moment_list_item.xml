@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:weightSum="5"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:padding="1dp"
+            android:id="@+id/photoImageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            tools:src="@drawable/background_color"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="4"
+            android:padding="2dp"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_margin="1dp"
+                android:id="@+id/fileNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Capture 1"
+                android:textSize="16sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_margin="1dp"
+                android:textSize="14dp"
+                android:id="@+id/fileNameWithFormat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JPEG_20180527_115936.jpg"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/captureDateTextView"
+                android:layout_margin="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="27/05/2018 11:59:36 PM"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+
+</LinearLayout>

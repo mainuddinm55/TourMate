@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".fragment.EventDetailsFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/eventNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            tools:text="Chittagong Tour" />
+
+        <TextView
+            android:id="@+id/budgetStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:text="Budget Status (1200/50000)" />
+
+        <TextView
+            android:id="@+id/expensePercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/budgetStatusProgressBar"
+            android:layout_marginStart="100dp"
+            android:textSize="16sp"
+            tools:text="15%"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:id="@+id/totalBudget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/expensePercent"
+            android:layout_marginEnd="100dp"
+            android:textSize="16sp"
+            tools:text="100%"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp" />
+
+        <ProgressBar
+            android:id="@+id/budgetStatusProgressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            tools:progress="20"
+            android:progressBackgroundTint="#ffffff"
+            android:progressTint="#94c140" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+    <ExpandableListView
+        android:id="@+id/eventExListView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="130dp"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

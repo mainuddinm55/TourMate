@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_color"
+    android:layout_margin="10dp"
+    android:padding="20dp"
+
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Add More Budget"
+        android:textSize="35sp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/addBudgetAmount"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Budget Amount"
+        android:background="#097659"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:textColorHint="#fff"
+        android:inputType="numberDecimal"/>
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/addBudgetCancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/addBudgetSaveBtn"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:background="@drawable/dialog_clr_two"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/addBudgetSaveBtn" />
+        <Button
+            android:background="@drawable/dialog_clr_two"
+            android:textColor="#ffffff"
+            android:layout_alignParentRight="true"
+            android:id="@+id/addBudgetSaveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            />
+    </RelativeLayout>
+</LinearLayout>

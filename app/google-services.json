@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "862595927664",
+    "firebase_url": "https://tourmate-bitm33.firebaseio.com",
+    "project_id": "tourmate-bitm33",
+    "storage_bucket": "tourmate-bitm33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862595927664:android:b70bfde83d3a187d",
+        "android_client_info": {
+          "package_name": "com.nullpointers.toutmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862595927664-ripj3q9eokh8j9vsfb349kdes032bpdf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nullpointers.toutmate",
+            "certificate_hash": "c4e0279599dfded488e409432441797aecf8ba91"
+          }
+        },
+        {
+          "client_id": "862595927664-u0nudqlo8ggsbdkg6jbd9so186bk25k2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "862595927664-u0nudqlo8ggsbdkg6jbd9so186bk25k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL2ASX7YfLbpQPMWs5YhBuupcT0pGDLTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862595927664-u0nudqlo8ggsbdkg6jbd9so186bk25k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

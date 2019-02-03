@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Tour Mate</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="place_api_key">AIzaSyBTGG4xgpKg8IIOkYlYpYHOOfpKLsK6Bj4</string>
+    <string name="direction_api_key">AIzaSyBUvBqaRgMCsmoKuaIZMVfCZN4z3vB_bJY</string>
+
+    <string name="weather_api_key">0227e6010071a6909fc84a8b6c5d2037</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="email_hint">Email</string>
+    <string name="pass_hint">Password</string>
+
+
+    <string name="no_data_found_yet">No Data Found Yet</string>
+    <string name="search">search</string>
+    <string name="sun_rise">Sun Rise</string>
+    <string name="sun_set">Sun Set</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+
+
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone (Optional)</string>
+    <string name="register">Register</string>
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="nearby_places">Nearby Places</string>
+    <string name="find">find</string>
+</resources>

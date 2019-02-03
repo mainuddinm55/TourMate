@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_color"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_weight="9"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:text="All Expense"/>
+
+    <ImageButton
+        android:padding="5dp"
+        android:layout_marginRight="20dp"
+        android:background="#1aae86"
+        android:scaleType="centerCrop"
+        android:clickable="true"
+        android:id="@+id/crossButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/close"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/emptyExpense"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="No Expense Found"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"/>
+
+    <ListView
+        android:padding="2dp"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp"
+        android:id="@+id/expenseListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

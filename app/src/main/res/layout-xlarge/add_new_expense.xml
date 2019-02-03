@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:background="@drawable/dialog_color"
+    android:padding="10dp"
+    android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add New Expense"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textAlignment="viewStart"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                tools:ignore="RtlCompat"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:id="@+id/expenseNameET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Expense Name"
+                android:layout_gravity="center"
+                android:background="#097659"
+                android:textSize="25sp"
+                android:padding="20dp"
+                android:textColorHint="#fff"
+                />
+            <EditText
+                android:id="@+id/expenseAmountET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Amount"
+                android:background="#097659"
+                android:textSize="25sp"
+                android:padding="20dp"
+                android:textColorHint="#fff"
+                android:inputType="numberDecimal"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                />
+
+            <EditText
+                android:id="@+id/expenseCommentET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comment (Optional)"
+                android:background="#097659"
+                android:textSize="25sp"
+                android:padding="20dp"
+                android:textColorHint="#fff"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                
+                />
+
+
+            <TextView
+                android:id="@+id/expenseDateTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Date"
+                android:background="#097659"
+                android:textSize="25sp"
+                android:padding="20dp"
+                android:textColorHint="#fff"
+                android:inputType="date"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="120dp"
+
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:background="@drawable/dialog_clr_two"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="102dp" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/dialog_clr_two"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:text="Save"
+            android:textAllCaps="false"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
